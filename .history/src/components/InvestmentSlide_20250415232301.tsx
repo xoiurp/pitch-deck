@@ -121,7 +121,7 @@ export const InvestmentSlide = () => {
           variants={itemAnimation}
         >
           {/* Tamanho e max-width responsivos */}
-          <p className="text-base md:text-lg lg:text-[16px] text-[#1A1918] mx-auto font-sofia font-light md:max-w-2xl">
+          <p className="text-base md:text-lg lg:text-[20px] text-[#1A1918] mx-auto font-sofia font-light md:max-w-2xl">
             Este investimento nos permitirá lançar a plataforma, alcançar os primeiros
             10.000 assinantes e validar nosso modelo operacional e de receita.
           </p>

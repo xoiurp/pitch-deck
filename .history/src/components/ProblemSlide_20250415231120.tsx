@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+ruimport { motion } from 'framer-motion';
 import { Slide } from './Slide';
 
 const containerAnimation = {

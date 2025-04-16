@@ -71,6 +71,18 @@ export const VisionSlide = () => {
           </p>
         </motion.div>
 
+        {/* Inserindo a imagem novamente sem a variante */}
+        <motion.div>
+          <img
+            src="/logo_bege.png"
+            alt="[e] eles Logo"
+            // Tamanho e margem responsivos
+            className="w-24 h-24 md:w-32 md:h-32 mx-auto mb-4 md:mb-8"
+          />
+        </motion.div>
+
+
+
         <motion.div
           className="space-y-4"
           variants={itemAnimation}
