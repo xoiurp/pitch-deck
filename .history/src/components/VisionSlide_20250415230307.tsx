@@ -68,15 +68,6 @@ export const VisionSlide = () => {
           </p>
         </motion.div>
 
-        {/* Inserindo a imagem novamente sem a variante */}
-        <motion.div> 
-          <img
-            src="/logo_bege.png" 
-            alt="[e] eles Logo"
-            className="w-32 h-32 mx-auto mb-8"
-          />
-        </motion.div>
-
 
 
         <motion.div
