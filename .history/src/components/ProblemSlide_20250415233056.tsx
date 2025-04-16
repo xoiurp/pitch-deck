@@ -25,7 +25,7 @@ const itemAnimation = {
 
 const ProblemItem = ({ icon, text }: { icon: string; text: string }) => (
   <motion.div
-    className="flex items-center gap-4 mb-3"
+    className="flex items-center gap- mb-3"
     variants={itemAnimation}
   >
     <span className="text-2xl text-primary">{icon}</span>
@@ -46,7 +46,7 @@ export const ProblemSlide = () => {
       >
         <motion.h2 // Removida a duplicação
           // Tamanho de fonte responsivo
-          className="pt-16 text-xl md:text-5xl lg:text-[48px] font-semibold text-primary mb-4 text-center" // Adicionado text-center, ajustado tamanho mobile, adicionado padding top mobile
+          className="text-2xl md:text-5xl lg:text-[48px] font-semibold text-primary mb-4 text-center" // Adicionado text-center
           variants={itemAnimation}
         >
             O Problema: Uma Barreira Silenciosa

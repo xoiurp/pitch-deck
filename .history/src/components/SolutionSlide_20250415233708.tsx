@@ -57,7 +57,7 @@ export const SolutionSlide = () => {
       >
         <motion.div className="text-center mb-12" variants={itemAnimation}>
           {/* Tamanho de fonte responsivo */}
-          <h2 className="pt-4 text-2xl md:text-5xl lg:text-[64px] font-semibold text-primary mb-4">
+          <h2 className="pt-16 text-2xl md:text-5xl lg:text-[64px] font-semibold text-primary mb-4">
             A Solução: [e] eles
           </h2>
           {/* Tamanho e max-width responsivos */}

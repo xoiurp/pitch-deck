@@ -46,7 +46,7 @@ export const ProblemSlide = () => {
       >
         <motion.h2 // Removida a duplicação
           // Tamanho de fonte responsivo
-          className="pt-16 text-xl md:text-5xl lg:text-[48px] font-semibold text-primary mb-4 text-center" // Adicionado text-center, ajustado tamanho mobile, adicionado padding top mobile
+          className="pt-4 text-xl md:text-5xl lg:text-[48px] font-semibold text-primary mb-4 text-center" // Adicionado text-center, ajustado tamanho mobile, adicionado padding top mobile
           variants={itemAnimation}
         >
             O Problema: Uma Barreira Silenciosa

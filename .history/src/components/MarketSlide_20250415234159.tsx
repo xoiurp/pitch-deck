@@ -52,7 +52,7 @@ export const MarketSlide = () => {
     <Slide className="bg-gray-50">
       {/* Padding e max-width responsivos */}
       <motion.div
-        className="mx-auto p-4 md:p-8 md:max-w-5xl min-h-screen overflow-y-auto md:overflow-y-hidden"
+        className="mx-auto p-4 md:p-8 md:max-w-5xl h-screen overflow-y-auto"
         variants={containerAnimation}
         initial="hidden"
         animate="visible"

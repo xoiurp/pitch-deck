@@ -52,7 +52,7 @@ export const MarketSlide = () => {
     <Slide className="bg-gray-50">
       {/* Padding e max-width responsivos */}
       <motion.div
-        className="mx-auto p-4 md:p-8 md:max-w-5xl min-h-screen overflow-y-auto md:overflow-y-hidden"
+        className="mx-auto p-4 md:p-8 md:max-w-5xl h-screen overflow-y-auto"
         variants={containerAnimation}
         initial="hidden"
         animate="visible"
@@ -107,7 +107,7 @@ export const MarketSlide = () => {
                 TAM Estimado: R$ 10 Bilhões / Ano
               </h3>
               {/* Tamanho de fonte responsivo */}
-              <p className="text-base md:text-lg lg:text-[20px] text-white font-sofia font-light">
+              <p className="text-base md:text-lg lg:text-[16px] text-white font-sofia font-light">
                 Mercado de telemedicina em forte expansão
                 <br />
                 (Projeção R$ 16 Bi até 2025)

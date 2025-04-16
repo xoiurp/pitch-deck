@@ -46,7 +46,7 @@ export const ProblemSlide = () => {
       >
         <motion.h2 // Removida a duplicação
           // Tamanho de fonte responsivo
-          className="pt-16 text-xl md:text-5xl lg:text-[48px] font-semibold text-primary mb-4 text-center" // Adicionado text-center, ajustado tamanho mobile, adicionado padding top mobile
+          className="text-2xl md:text-5xl lg:text-[64px] font-semibold text-primary mb-4 text-center" // Adicionado text-center
           variants={itemAnimation}
         >
             O Problema: Uma Barreira Silenciosa
@@ -57,11 +57,11 @@ export const ProblemSlide = () => {
             variants={itemAnimation}
           >
             {/* Tamanho e max-width responsivos */}
-            <p className="text-lg md:text-xl text-[#8A3A34] mx-auto mb-8 font-sofia font-semibold md:max-w-1xl"> {/* Usado font-semibold */}
+            <p className="text-lg md:text-xl text-[#8A3A34] mx-auto mb-8 font-sofia font-semibold md:max-w-2xl"> {/* Usado font-semibold */}
               Homens (20-40 anos) adiam ou evitam cuidados médicos.
             </p>
             {/* Tamanho e max-width responsivos */}
-            <p className="text-base md:text-lg lg:text-[20px] text-[#1A1918] mx-auto font-sofia font-light md:max-w-1xl">
+            <p className="text-base md:text-lg lg:text-[20px] text-[#1A1918] mx-auto font-sofia font-light md:max-w-2xl">
               Por quê? Falta de tempo, constrangimento, dificuldade de acesso e desconfiança.
             </p>
           </motion.div>
@@ -71,12 +71,12 @@ export const ProblemSlide = () => {
             variants={itemAnimation}
           >
             {/* Tamanho e max-width responsivos */}
-            <p className="text-base md:text-lg lg:text-[16] text-[#1A1918] mx-auto font-sofia font-light mb-4 md:max-w-1xl">
+            <p className="text-base md:text-lg lg:text-[20px] text-[#1A1918] mx-auto font-sofia font-light mb-6 md:max-w-2xl">
               Resultado: Sofrem em silêncio com condições tratáveis que afetam sua confiança e bem-estar:
             </p>
 
             {/* Grid responsivo */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {/* Chamada ao ProblemItem corrigida */}
               <ProblemItem
                 icon="💊"

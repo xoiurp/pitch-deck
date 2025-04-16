@@ -50,14 +50,14 @@ export const SolutionSlide = () => {
     <Slide className="bg-gray-50">
       {/* Padding e max-width responsivos */}
       <motion.div
-        className="mx-auto p-4 md:p-8 md:max-w-6xl h-screen overflow-y-auto"
+        className="mx-auto p-4 md:p-8 md:max-w-6xl"
         variants={containerAnimation}
         initial="hidden"
         animate="visible"
       >
         <motion.div className="text-center mb-12" variants={itemAnimation}>
           {/* Tamanho de fonte responsivo */}
-          <h2 className="pt-4 text-2xl md:text-5xl lg:text-[64px] font-semibold text-primary mb-4">
+          <h2 className="text-2xl md:text-xl lg:text-[64px] font-semibold text-primary mb-4">
             A Solução: [e] eles
           </h2>
           {/* Tamanho e max-width responsivos */}

@@ -52,7 +52,7 @@ export const MarketSlide = () => {
     <Slide className="bg-gray-50">
       {/* Padding e max-width responsivos */}
       <motion.div
-        className="mx-auto p-4 md:p-8 md:max-w-5xl min-h-screen overflow-y-auto md:overflow-y-hidden"
+        className="mx-auto p-4 md:p-8 md:max-w-5xl h-screen overflow-y-auto"
         variants={containerAnimation}
         initial="hidden"
         animate="visible"
@@ -99,7 +99,7 @@ export const MarketSlide = () => {
 
           <motion.div // Removida a duplicação
             // Padding responsivo
-            className="bg-green-600 rounded-xl p-4 md:p-6 text-center mt-12 transform hover:scale-105 transition-transform duration-300"
+            className="bg-green-600 rounded-xl p-4 md:p-8 text-center mt-12 transform hover:scale-105 transition-transform duration-300"
             variants={itemAnimation}
           >
               {/* Tamanho de fonte responsivo */}

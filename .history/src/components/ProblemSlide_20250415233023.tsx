@@ -46,7 +46,7 @@ export const ProblemSlide = () => {
       >
         <motion.h2 // Removida a duplicação
           // Tamanho de fonte responsivo
-          className="pt-16 text-xl md:text-5xl lg:text-[48px] font-semibold text-primary mb-4 text-center" // Adicionado text-center, ajustado tamanho mobile, adicionado padding top mobile
+          className="text-2xl md:text-5xl lg:text-[48px] font-semibold text-primary mb-4 text-center" // Adicionado text-center
           variants={itemAnimation}
         >
             O Problema: Uma Barreira Silenciosa
@@ -61,7 +61,7 @@ export const ProblemSlide = () => {
               Homens (20-40 anos) adiam ou evitam cuidados médicos.
             </p>
             {/* Tamanho e max-width responsivos */}
-            <p className="text-base md:text-lg lg:text-[20px] text-[#1A1918] mx-auto font-sofia font-light md:max-w-1xl">
+            <p className="text-base md:text-lg lg:text-[20px] text-[#1A1918] mx-auto font-sofia font-light md:max-w-2xl">
               Por quê? Falta de tempo, constrangimento, dificuldade de acesso e desconfiança.
             </p>
           </motion.div>
